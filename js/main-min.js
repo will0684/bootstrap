@@ -1,0 +1,1 @@
+var app={init:function(){document.querySelector("#homenav").addEventListener("click",app.makeActive),document.querySelector("#helpnav").addEventListener("click",app.makeActive),document.querySelector("#contactnav").addEventListener("click",app.makeActive)},makeActive:function(){this.parentElement.classList.add("active")}};document.addEventListener("DOMContentLoaded",app.init);
